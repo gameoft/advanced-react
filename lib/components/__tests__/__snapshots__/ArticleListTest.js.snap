@@ -1,106 +1,99 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ArticleList renders correctly 1`] = `
-<div>
-  <div
-    style={
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <ArticleContainer
+      article={
+        Object {
+          "id": "a",
+        }
+      }
+    />
+    <ArticleContainer
+      article={
+        Object {
+          "id": "b",
+        }
+      }
+    />
+  </div>,
+  "nodes": Array [
+    <div>
+      <ArticleContainer
+        article={
+          Object {
+            "id": "a",
+          }
+        }
+      />
+      <ArticleContainer
+        article={
+          Object {
+            "id": "b",
+          }
+        }
+      />
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <ArticleList
+      articles={
+        Object {
+          "a": Object {
+            "id": "a",
+          },
+          "b": Object {
+            "id": "b",
+          },
+        }
+      }
+    />,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div>
+      <ArticleContainer
+        article={
+          Object {
+            "id": "a",
+          }
+        }
+      />
+      <ArticleContainer
+        article={
+          Object {
+            "id": "b",
+          }
+        }
+      />
+    </div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ArticleList
+    articles={
       Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 10,
+        "a": Object {
+          "id": "a",
+        },
+        "b": Object {
+          "id": "b",
+        },
       }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-  <div
-    style={
-      Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 10,
-      }
-    }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-</div>
+  />,
+}
 `;
